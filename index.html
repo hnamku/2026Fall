@@ -121,8 +121,8 @@
    The same 4:5 head-and-shoulders composition is preserved on every screen. */
 .profile.profile-narrative{grid-template-columns:320px minmax(0,1fr);gap:46px}
 .profile-narrative .profile-head{display:block;margin-bottom:0}
-.profile-portrait{position:relative;width:100%;aspect-ratio:4 / 5;overflow:hidden;margin:0 0 24px;border-radius:8px;background:#eceeed;isolation:isolate}
-.profile-narrative .profile-head .profile-photo{position:absolute;left:-56.66666667%;top:-49.77777778%;width:189.58333333%;height:auto;max-width:none;margin:0;object-fit:contain;object-position:center}
+.profile-portrait{position:relative;width:100%;aspect-ratio:4 / 3;overflow:hidden;margin:0 0 24px;border-radius:8px;background:#eceeed;isolation:isolate}
+.profile-narrative .profile-head .profile-photo{position:static;width:100%;height:auto;max-width:100%;margin:0;object-fit:contain;object-position:center}
 @media(max-width:1100px){.profile.profile-narrative{grid-template-columns:minmax(230px,.75fr) minmax(0,1.45fr);gap:32px}}
 @media(max-width:900px){.profile.profile-narrative{grid-template-columns:1fr;gap:30px}.profile-narrative .profile-head{display:grid;grid-template-columns:220px minmax(0,1fr);gap:30px;align-items:center}.profile-portrait{margin:0}.profile-narrative .profile-head h3{font-size:2rem}.profile-narrative .profile-overline{font-size:.8125rem}.profile-narrative .english{font-size:.75rem}}
 @media(max-width:560px){.profile-narrative .profile-head{display:block;text-align:center}.profile-portrait{max-width:320px;margin:0 auto 22px}.profile-narrative .profile-head h3{font-size:1.875rem}.profile.profile-narrative{gap:27px}}
